@@ -21,9 +21,9 @@ public class BuergeraemterView {
     private Label lblEingabe    	 		= new Label("Eingabe");
     private Label lblAnzeige   	 	    	= new Label("Anzeige");
     private Label lblName 					= new Label("Name:");
-    private Label lblGeoeffnetVon   		= new Label("Geöffnet von:");
-    private Label lblGeoeffnetBis  	 		= new Label("Geöffnet bis:");
-    private Label lblStrasseHNr   			= new Label("Straße und Hausnummer:");
+    private Label lblGeoeffnetVon   		= new Label("Geï¿½ffnet von:");
+    private Label lblGeoeffnetBis  	 		= new Label("Geï¿½ffnet bis:");
+    private Label lblStrasseHNr   			= new Label("Straï¿½e und Hausnummer:");
     private Label lblDienstleistungen  		= new Label("Dienstleistungen:");
     private TextField txtName 	 			= new TextField();
     private TextField txtGeoeffnetVon		= new TextField();
@@ -43,7 +43,7 @@ public class BuergeraemterView {
     	Stage primaryStage, BuergeraemterModel buergeraemterModel){
        	Scene scene = new Scene(this.pane, 700, 340);
     	primaryStage.setScene(scene);
-    	primaryStage.setTitle("Verwaltung von Bürgerämtern");
+    	primaryStage.setTitle("Verwaltung von Bï¿½rgerï¿½mtern");
     	primaryStage.show();
       	this.buergeraemterControl = buergeraemterControl;
     	this.buergeraemterModel = buergeraemterModel;
@@ -153,14 +153,14 @@ public class BuergeraemterView {
    	        Float.parseFloat(txtGeoeffnetBis.getText()),
     		txtStrasseHNr.getText(),
     		txtDienstleistungen.getText().split(";")));
-   		    zeigeInformationsfensterAn("Das Bürgeramt wurde aufgenommen!");
+   		    zeigeInformationsfensterAn("Das Bï¿½rgeramt wurde aufgenommen!");
       	}
    	    catch(Exception exc){
    		    zeigeFehlermeldungsfensterAn(exc.getMessage());
  	    }
    }
   
-   private void zeigeBuergeraemterAn(){
+   void zeigeBuergeraemterAn(){
 		if(buergeraemterModel.getBuergeramt() != null){
 			txtAnzeige.setText(
    			buergeraemterModel.getBuergeramt()
@@ -168,7 +168,7 @@ public class BuergeraemterView {
 		}
 		else{
 			zeigeInformationsfensterAn( 
-				"Bisher wurde kein Bürgeramt aufgenommen!");
+				"Bisher wurde kein Bï¿½rgeramt aufgenommen!");
 		}
    }	
 

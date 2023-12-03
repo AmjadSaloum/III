@@ -1,5 +1,13 @@
 Daten des buergeramts
- Name des buergeramts	Jalal
-öffnungszeit des buergeramts:	 1.0 2.0
-Straße und Hausnummer des buergeramts:	3asdsad
-Dienstleistungen des buergeramts:	[Ljava.lang.String;@1c840ecd
+ Name des buergeramts	Amjad
+ï¿½ffnungszeit des buergeramts:	 34.0 43.0
+Straï¿½e und Hausnummer des buergeramts:	tfds
+Dienstleistungen des buergeramts:	[Ljava.lang.String;@745bcbaDaten des buergeramts
+ Name des buergeramts	Freizeit
+ï¿½ffnungszeit des buergeramts:	 2.0 5.0
+Straï¿½e und Hausnummer des buergeramts:	Von-w
+Dienstleistungen des buergeramts:	[Ljava.lang.String;@2ac245f2Daten des buergeramts
+ Name des buergeramts	Freizeit
+ï¿½ffnungszeit des buergeramts:	 2.0 5.0
+Straï¿½e und Hausnummer des buergeramts:	Von-w
+Dienstleistungen des buergeramts:	[Ljava.lang.String;@2ac245f2
