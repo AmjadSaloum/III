@@ -1,4 +1,4 @@
-package gui;
+package guiBuergeraemter;
    
 import business.BuergeraemterModel;
 import business.Buergeramt;
